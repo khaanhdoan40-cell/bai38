@@ -1,0 +1,8 @@
+/* loại trừ những đơn p có id là (top) trong khối*/
+/* .top:not(p) {
+  background-color: yellow;
+} */
+/* Loại trừ những đơn p xuất hiện đầu tiên trong khối */
+.top:not(:first-of-type) {
+  background-color: yellow;
+}
