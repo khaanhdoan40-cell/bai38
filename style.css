@@ -3,6 +3,22 @@
   background-color: yellow;
 } */
 /* Loại trừ những đơn p xuất hiện đầu tiên trong khối */
-.top:not(:first-of-type) {
+/* .top:not(:first-of-type) {
   background-color: yellow;
+} */
+/* universal selector */
+* {
+  color: red;
+}
+/* element selector */
+h1 {
+  color: blue !important;
+}
+/* class or pseudo class */
+.demo {
+  color: green;
+}
+/* ID */
+#theh1 {
+  color: yellow;
 }
